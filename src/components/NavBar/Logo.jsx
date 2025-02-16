@@ -8,7 +8,7 @@ import Avatar from "@mui/material/Avatar";
 const Logo = () => (
   <div className="logo-warper">
     <img className="logo-pic" src={logo} alt="logo" />
-    <h4>Where Fantasy Meets Reality</h4>
+    <h4 style={{ marginLeft: 5, width: 100 }}>Where Fantasy Meets Reality</h4>
   </div>
 );
 

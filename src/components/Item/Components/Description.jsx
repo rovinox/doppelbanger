@@ -21,10 +21,10 @@ const Description = ({
       </p>
       <div className="price">
         <div className="main-tag">
-          <p>$125.00</p>
+          <p>$3,499.00 USD</p>
           <p>50% off</p>
         </div>
-        <s>$250.00</s>
+        <s>$4,999.00</s>
       </div>
       <div className="buttons">
         <QuantityButton onQuant={onQuant} onRemove={onRemove} onAdd={onAdd} />

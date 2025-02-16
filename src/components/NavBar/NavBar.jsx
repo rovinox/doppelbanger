@@ -16,11 +16,11 @@ const NavBar = () => {
 
   return (
     <ThemeContext>
-      <AppBar position="static" sx={{ bgcolor: "#91002e" }}>
+      <AppBar position="static" sx={{ bgcolor: "none" }}>
         <Container maxWidth="xl">
           <Toolbar disableGutters>
             <Logo />
-            <MenuNavList pages={pages} />
+            {/* <MenuNavList pages={pages} /> */}
             <Container maxWidth="xs" disableGutters>
               {/* <SearchBar /> */}
             </Container>

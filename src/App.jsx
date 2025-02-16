@@ -1,11 +1,11 @@
 import AppRouter from "./routers/AppRouter";
-import ThemeContext from "../src/context/ThemeContext";
-import { CartProvider } from "../src/context/CartContext";
-import { UserProvider } from "../src/context/UserContext";
+import ThemeContext from "./context/ThemeContext";
+import { CartProvider } from "./context/CartContext";
+import { UserProvider } from "./context/UserContext";
 
 import "./App.css";
 
-const LanusTechApp = () => (
+const App = () => (
   <div className="App">
     <UserProvider>
       <CartProvider>
@@ -17,4 +17,4 @@ const LanusTechApp = () => (
   </div>
 );
 
-export default LanusTechApp;
+export default App;
