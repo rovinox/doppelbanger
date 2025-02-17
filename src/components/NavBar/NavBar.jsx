@@ -8,24 +8,25 @@ import SearchBar from "./SearchBar";
 import CartWidget from "../Cart/CartWidget";
 import Logo from "./Logo";
 import MenuNavList from "./MenuNavList";
-
+import NavMenuItems from "../NavMenuGroup/NavMenuItems";
 import ThemeContext from "../../context/ThemeContext";
 
 const NavBar = () => {
-  const pages = ["All Items"];
+  const pages = ["Home", "About", "Contact", "Shop"];
 
   return (
     <ThemeContext>
-      <AppBar position="static" sx={{ bgcolor: "none" }}>
+      <AppBar position="sticky" sx={{ bgcolor: "none" }}>
         <Container maxWidth="xl">
           <Toolbar disableGutters>
             <Logo />
-            {/* <MenuNavList pages={pages} /> */}
-            <Container maxWidth="xs" disableGutters>
-              {/* <SearchBar /> */}
-            </Container>
+            <MenuNavList pages={pages} />
+            {/* <Container maxWidth="xs" disableGutters>
+              <SearchBar />
+            </Container> */}
             <CartWidget />
           </Toolbar>
+          <NavMenuItems />
         </Container>
       </AppBar>
     </ThemeContext>

@@ -215,6 +215,8 @@ ul {
   width: 90%;
   margin: 100px auto;
   gap: 100px;
+  margin-top: 150px;
+  padding-top: 50px;
 }
 @media (max-width: 992px) {
   .core {

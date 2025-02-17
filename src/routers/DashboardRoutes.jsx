@@ -6,14 +6,10 @@ import ItemDetailContainer from "../components/Item/ItemDetailContainer";
 import Cart from "../components/Cart/Cart";
 import Checkout from "../components/Checkout/Checkout";
 
-
-
-
 import LandingPage from "../components/landingPage/LandingPage";
 
 const DashboardRoutes = () => (
   <>
-    <Navbar />
     <Routes>
       <Route path="/" element={<LandingPage />} />
       <Route path="/category/:categoryId" element={<ItemListCointainer />} />

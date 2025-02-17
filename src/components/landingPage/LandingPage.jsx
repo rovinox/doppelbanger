@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import ItemListCointainer from "../Item/ItemListCointainer";
 import LandingBanner from "./LandingBanner";
-import demoData from "./bannerData.json";
-
+import demoData from "../../mockData/responseData.json";
+import NavMenuItems from "../NavMenuGroup/NavMenuItems";
+import Navbar from "../NavBar/NavBar";
 export default function LandingPage() {
   const [items, setItems] = useState(null);
 
@@ -13,19 +14,21 @@ export default function LandingPage() {
     //   : itemsRef;
 
     try {
-      const items = demoData;
-      console.log("items: ", items);
+      //const items = demoData;
+      console.log("items: ", demoData.paginatedMenuItems.menus[0].groups);
 
-      setItems(items);
+      setItems(demoData.paginatedMenuItems.menus[0].groups);
     } catch (err) {
       console.error(err);
     }
   }, []);
 
   return (
-    <div style={{ marginTop: 50 }}>
-      <LandingBanner items={items} />
-      <ItemListCointainer />
+    <div>
+      <Navbar />
+      <LandingBanner />
+      {items &&
+        items.map((item) => <ItemListCointainer key={item.guid} {...item} />)}
     </div>
   );
 }

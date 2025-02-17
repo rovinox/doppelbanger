@@ -20,6 +20,7 @@ import Gallery from "./Components/Gallery";
 import Description from "./Components/Description";
 import MobileGallery from "./Components/MobileGallery";
 import GalleryView from "./Gallery/GalleryView";
+import Navbar from "../NavBar/NavBar";
 
 const ItemDetail = ({ id, title, description, price, stock, image }) => {
   const { addItemToCart, isInCart } = useContext(CartContext);
@@ -50,25 +51,7 @@ const ItemDetail = ({ id, title, description, price, stock, image }) => {
 
   return (
     <>
-      {/* <GalleryView /> */}
-      <div style={{ textAlign: "center", padding: 20 }}>
-        <h2>Now accepting pre-orders</h2>
-        <p>
-          Items to ship in approximately 5-6 months (Or give a specific month
-          that’s 6 months out) and be discounted compared to post-launch
-        </p>
-        <p>
-          This doll was engineered using state of the art 3D printing technology
-          to replicate a clone or “Dopplebanger” of Asa. The only experience any
-          closer to the real deal would be having Asa Akira herself in your
-          hotel room!
-        </p>
-        <p>
-          Made with the highest quality of Silicone and TPE materials to ensure
-          the safest, realistic, and most enjoyable experience possible.{" "}
-        </p>
-      </div>
-
+      <Navbar />
       <section className="core">
         <Gallery />
         <MobileGallery />

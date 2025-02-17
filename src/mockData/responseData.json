@@ -1,0 +1,2341 @@
+{
+    "paginatedMenuItems": {
+        "menus": [
+            {
+                "guid": "030a5741-db2e-4bb8-bdbd-b45b11e0ef00",
+                "name": "Main Menu",
+                "groups": [
+                    {
+                        "name": "CHICKEN & BEEF PLATTERS",
+                        "description": "",
+                        "guid": "9f593b81-14ea-4766-b82a-5b001e4689a3",
+                        "items": [
+                            {
+                                "guid": "b6a20ba1-b0b6-422f-94fb-35d0ef959aa1",
+                                "outOfStock": false,
+                                "itemGroupGuid": "9f593b81-14ea-4766-b82a-5b001e4689a3",
+                                "name": "CHICKEN TAWOUK SKEWERS:",
+                                "description": "2 Juicy Shish Tawouk Chicken skewers with creamy garlic sauce and 3 sides.",
+                                "prices": [
+                                    17.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035818960",
+                                "menuItemDetails": {
+                                    "description": "2 Juicy Shish Tawouk Chicken skewers with creamy garlic sauce and 3 sides.",
+                                    "name": "CHICKEN TAWOUK SKEWERS:",
+                                    "prices": [
+                                        17.99
+                                    ],
+                                    "masterId": "1200000000035818960",
+                                    "contentAdvisories": {
+                                        "alcohol": {
+                                            "containsAlcohol": null,
+                                            "__typename": "Menus_Alcohol"
+                                        },
+                                        "__typename": "Menus_ContentAdvisories"
+                                    },
+                                    "imageUrls": null,
+                                    "timeBasedRules": null,
+                                    "itemTags": [],
+                                    "usesFractionalQuantity": false,
+                                    "unitOfMeasure": "NONE",
+                                    "modifierGroups": [
+                                        {
+                                            "name": "Sides",
+                                            "maxSelections": 3,
+                                            "minSelections": 1,
+                                            "pricingMode": "ADJUSTS_PRICE",
+                                            "guid": "fb899bb9-2da9-46b0-842f-b8c7bbd45c1b",
+                                            "__typename": "ModifierGroup",
+                                            "modifiers": [
+                                                {
+                                                    "itemGuid": "7756dd4a-e98f-486c-aefa-1f063225f277",
+                                                    "itemGroupGuid": null,
+                                                    "selected": false,
+                                                    "name": "Fries",
+                                                    "price": 0,
+                                                    "allowsDuplicates": true,
+                                                    "outOfStock": false,
+                                                    "isDefault": false,
+                                                    "__typename": "Modifier",
+                                                    "modifierGroups": []
+                                                },
+                                                {
+                                                    "itemGuid": "3797a88f-702d-44ab-bac4-18d1aae4b95d",
+                                                    "itemGroupGuid": null,
+                                                    "selected": false,
+                                                    "name": "Rice",
+                                                    "price": 0,
+                                                    "allowsDuplicates": true,
+                                                    "outOfStock": false,
+                                                    "isDefault": false,
+                                                    "__typename": "Modifier",
+                                                    "modifierGroups": []
+                                                },
+                                                {
+                                                    "itemGuid": "73ec2327-fbcb-4c20-9e96-4187f2fedc43",
+                                                    "itemGroupGuid": null,
+                                                    "selected": false,
+                                                    "name": "Chop chop",
+                                                    "price": 0,
+                                                    "allowsDuplicates": true,
+                                                    "outOfStock": false,
+                                                    "isDefault": false,
+                                                    "__typename": "Modifier",
+                                                    "modifierGroups": []
+                                                },
+                                                {
+                                                    "itemGuid": "98975ab6-941b-4af0-b92c-ac3d6fb89af9",
+                                                    "itemGroupGuid": null,
+                                                    "selected": false,
+                                                    "name": "Black beans",
+                                                    "price": 0,
+                                                    "allowsDuplicates": true,
+                                                    "outOfStock": false,
+                                                    "isDefault": false,
+                                                    "__typename": "Modifier",
+                                                    "modifierGroups": []
+                                                },
+                                                {
+                                                    "itemGuid": "46ef89a5-77e2-4a17-b41c-69f0c068b944",
+                                                    "itemGroupGuid": null,
+                                                    "selected": false,
+                                                    "name": "Sub Hummus",
+                                                    "price": 1.99,
+                                                    "allowsDuplicates": true,
+                                                    "outOfStock": false,
+                                                    "isDefault": false,
+                                                    "__typename": "Modifier",
+                                                    "modifierGroups": []
+                                                },
+                                                {
+                                                    "itemGuid": "63e850dc-5c43-4400-9170-1ccfa0df7251",
+                                                    "itemGroupGuid": null,
+                                                    "selected": false,
+                                                    "name": "Sub Taboule",
+                                                    "price": 1.99,
+                                                    "allowsDuplicates": true,
+                                                    "outOfStock": false,
+                                                    "isDefault": false,
+                                                    "__typename": "Modifier",
+                                                    "modifierGroups": []
+                                                },
+                                                {
+                                                    "itemGuid": "989a0d9c-ecc0-4b57-a3e2-51576e072bc9",
+                                                    "itemGroupGuid": null,
+                                                    "selected": false,
+                                                    "name": "Sub Garden Salad",
+                                                    "price": 1.99,
+                                                    "allowsDuplicates": true,
+                                                    "outOfStock": false,
+                                                    "isDefault": false,
+                                                    "__typename": "Modifier",
+                                                    "modifierGroups": []
+                                                },
+                                                {
+                                                    "itemGuid": "cc121cb2-fea8-464d-9329-57e2b7f3380d",
+                                                    "itemGroupGuid": null,
+                                                    "selected": false,
+                                                    "name": "Sub Onion rings",
+                                                    "price": 1.99,
+                                                    "allowsDuplicates": true,
+                                                    "outOfStock": false,
+                                                    "isDefault": false,
+                                                    "__typename": "Modifier",
+                                                    "modifierGroups": []
+                                                },
+                                                {
+                                                    "itemGuid": "835d3947-fd2b-4e86-b81b-31376ed04cec",
+                                                    "itemGroupGuid": null,
+                                                    "selected": false,
+                                                    "name": "Sub Fried Mashroum",
+                                                    "price": 1.99,
+                                                    "allowsDuplicates": true,
+                                                    "outOfStock": false,
+                                                    "isDefault": false,
+                                                    "__typename": "Modifier",
+                                                    "modifierGroups": []
+                                                },
+                                                {
+                                                    "itemGuid": "8820f924-e5d1-4194-ac57-25f110112d45",
+                                                    "itemGroupGuid": null,
+                                                    "selected": false,
+                                                    "name": "Sub Potato Salad",
+                                                    "price": 1.99,
+                                                    "allowsDuplicates": true,
+                                                    "outOfStock": false,
+                                                    "isDefault": false,
+                                                    "__typename": "Modifier",
+                                                    "modifierGroups": []
+                                                },
+                                                {
+                                                    "itemGuid": "c5b19900-8a59-43ce-989f-ecf7ce3f1fa6",
+                                                    "itemGroupGuid": null,
+                                                    "selected": false,
+                                                    "name": "Sub Baba ganoush",
+                                                    "price": 1.99,
+                                                    "allowsDuplicates": true,
+                                                    "outOfStock": false,
+                                                    "isDefault": false,
+                                                    "__typename": "Modifier",
+                                                    "modifierGroups": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Add Skewers",
+                                            "maxSelections": 10,
+                                            "minSelections": 0,
+                                            "pricingMode": "ADJUSTS_PRICE",
+                                            "guid": "860d142a-e3ed-47c6-821b-e5b33ad41534",
+                                            "__typename": "ModifierGroup",
+                                            "modifiers": [
+                                                {
+                                                    "itemGuid": "8890e42b-3483-4b65-9fa3-61bebf89bd38",
+                                                    "itemGroupGuid": null,
+                                                    "selected": false,
+                                                    "name": "(1) chicken Skewer",
+                                                    "price": 4.99,
+                                                    "allowsDuplicates": false,
+                                                    "outOfStock": false,
+                                                    "isDefault": false,
+                                                    "__typename": "Modifier",
+                                                    "modifierGroups": []
+                                                },
+                                                {
+                                                    "itemGuid": "343ee1c8-e8da-4533-93c2-6363ee1db8a1",
+                                                    "itemGroupGuid": null,
+                                                    "selected": false,
+                                                    "name": "(1) Steak Kabab",
+                                                    "price": 5.99,
+                                                    "allowsDuplicates": false,
+                                                    "outOfStock": false,
+                                                    "isDefault": false,
+                                                    "__typename": "Modifier",
+                                                    "modifierGroups": []
+                                                },
+                                                {
+                                                    "itemGuid": "807a726b-e22c-4615-ba8f-e87a2439d1f5",
+                                                    "itemGroupGuid": null,
+                                                    "selected": false,
+                                                    "name": "(1) Kafta Kabab",
+                                                    "price": 5.99,
+                                                    "allowsDuplicates": false,
+                                                    "outOfStock": false,
+                                                    "isDefault": false,
+                                                    "__typename": "Modifier",
+                                                    "modifierGroups": []
+                                                },
+                                                {
+                                                    "itemGuid": "39513347-70a9-49a8-951c-39cf4ffa2a35",
+                                                    "itemGroupGuid": null,
+                                                    "selected": false,
+                                                    "name": "(2) chicken Skewers",
+                                                    "price": 8.99,
+                                                    "allowsDuplicates": false,
+                                                    "outOfStock": false,
+                                                    "isDefault": false,
+                                                    "__typename": "Modifier",
+                                                    "modifierGroups": []
+                                                },
+                                                {
+                                                    "itemGuid": "d4cc0894-551d-4c0c-a34f-ad2472d6940b",
+                                                    "itemGroupGuid": null,
+                                                    "selected": false,
+                                                    "name": "(2) Steak Kabab Skewers",
+                                                    "price": 10.99,
+                                                    "allowsDuplicates": false,
+                                                    "outOfStock": false,
+                                                    "isDefault": false,
+                                                    "__typename": "Modifier",
+                                                    "modifierGroups": []
+                                                },
+                                                {
+                                                    "itemGuid": "145baa61-060e-4c0d-aa26-a94552c2ff24",
+                                                    "itemGroupGuid": null,
+                                                    "selected": false,
+                                                    "name": "(2) Kafta Kabab Skewers",
+                                                    "price": 10.99,
+                                                    "allowsDuplicates": false,
+                                                    "outOfStock": false,
+                                                    "isDefault": false,
+                                                    "__typename": "Modifier",
+                                                    "modifierGroups": []
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "__typename": "MenuItem"
+                                },
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "fd0dead6-f810-4618-84d9-f398d49db43a",
+                                "outOfStock": false,
+                                "itemGroupGuid": "9f593b81-14ea-4766-b82a-5b001e4689a3",
+                                "name": "KAFTA SKEWERS",
+                                "description": "2 BBQ Kafta skewers with 3 sides.",
+                                "prices": [
+                                    18.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035818962",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "3e6e1596-1080-420f-b845-c254195caeba",
+                                "outOfStock": false,
+                                "itemGroupGuid": "9f593b81-14ea-4766-b82a-5b001e4689a3",
+                                "name": "STEAK KABAB SKEWERS",
+                                "description": "2 Mouth-watering skewers of BBQ Kabab Steak with 3 sides.",
+                                "prices": [
+                                    21.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035818964",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "d8f44188-0ec0-4019-b57f-61d25647e965",
+                                "outOfStock": false,
+                                "itemGroupGuid": "9f593b81-14ea-4766-b82a-5b001e4689a3",
+                                "name": "CHICKEN SHAWARMA PLATTER",
+                                "description": "Our tender seasoned chicken breast and leg, grilled\nto perfection on a rotating spit served with garlic\nsauce + 3 sides.",
+                                "prices": [
+                                    16.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035818966",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "d89d3c8f-6a43-4476-a91a-e6a6c4ee5660",
+                                "outOfStock": false,
+                                "itemGroupGuid": "9f593b81-14ea-4766-b82a-5b001e4689a3",
+                                "name": "BEEF SHAWARMA PLATTER",
+                                "description": "Mouth-watering seasoned beef, grilled on a\nrotating spit served with tahini sauce.",
+                                "prices": [
+                                    16.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035818968",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "22ea49b7-6a7e-4d6a-b51f-ef24f91e70e2",
+                                "outOfStock": false,
+                                "itemGroupGuid": "9f593b81-14ea-4766-b82a-5b001e4689a3",
+                                "name": "GYRO SHAWARMA PLATTER",
+                                "description": "A mouthwatering combination of tender and seasoned gyro meat served with 3 sides.",
+                                "prices": [
+                                    16.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035818970",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "ae254853-6094-4916-9067-e8d603c1fa77",
+                                "outOfStock": false,
+                                "itemGroupGuid": "9f593b81-14ea-4766-b82a-5b001e4689a3",
+                                "name": "MIXED GRILL",
+                                "description": "1 Chicken skewer, 1 Steak Kabab skewer, 1 Kafta skewer with sauces + 3 sides.",
+                                "prices": [
+                                    22.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035818972",
+                                "imageUrls": {
+                                    "xxl": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/4b0f3359-67d8-4d03-9868-802ebe57cd1b.jpg?size=xxl",
+                                    "xl": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/4b0f3359-67d8-4d03-9868-802ebe57cd1b.jpg?size=xl",
+                                    "large": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/4b0f3359-67d8-4d03-9868-802ebe57cd1b.jpg?size=large",
+                                    "medium": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/4b0f3359-67d8-4d03-9868-802ebe57cd1b.jpg?size=medium",
+                                    "small": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/4b0f3359-67d8-4d03-9868-802ebe57cd1b.jpg?size=small",
+                                    "xs": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/4b0f3359-67d8-4d03-9868-802ebe57cd1b.jpg?size=xs",
+                                    "raw": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/4b0f3359-67d8-4d03-9868-802ebe57cd1b.jpg",
+                                    "__typename": "ImageSet"
+                                },
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "9da6fd69-aabf-4434-842c-6b754e9ed00f",
+                                "outOfStock": false,
+                                "itemGroupGuid": "9f593b81-14ea-4766-b82a-5b001e4689a3",
+                                "name": "FAMILY MIXED GRILL",
+                                "description": "2 Beef skewers, 2 Chicken tawouk skewers, 2 Kafta skewers, 5 oz of Chicken Shawarma, 5 oz of Beef Shawarma, grilled tomato, jalapeño and onion served with 3 sides",
+                                "prices": [
+                                    59.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000091383826",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            }
+                        ],
+                        "__typename": "MenuGroup"
+                    },
+                    {
+                        "name": "SEAFOOD PLATTERS",
+                        "description": "",
+                        "guid": "d94b73ba-fa42-4fa9-a40b-1e0265b9bec3",
+                        "items": [
+                            {
+                                "guid": "917f5cf2-5f94-4952-abe9-f489cfbf5ed9",
+                                "outOfStock": false,
+                                "itemGroupGuid": "d94b73ba-fa42-4fa9-a40b-1e0265b9bec3",
+                                "name": "Fish Platter",
+                                "description": "",
+                                "prices": [
+                                    14.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035819384",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "8f97dc75-b7ab-4741-aee9-e0049dbcedc7",
+                                "outOfStock": false,
+                                "itemGroupGuid": "d94b73ba-fa42-4fa9-a40b-1e0265b9bec3",
+                                "name": "Fish only",
+                                "description": "",
+                                "prices": [
+                                    6.99,
+                                    6.99,
+                                    8.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000001113956211",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "2fdac8b7-2378-4b7c-abd3-1fab7a624cd4",
+                                "outOfStock": false,
+                                "itemGroupGuid": "d94b73ba-fa42-4fa9-a40b-1e0265b9bec3",
+                                "name": "Mixed Grill Seafood",
+                                "description": "1 piece of fish , 10 shrimps and 10 calamari",
+                                "prices": [
+                                    18.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035819386",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "184953be-fdc9-4488-9d43-39cdc5a2e00d",
+                                "outOfStock": false,
+                                "itemGroupGuid": "d94b73ba-fa42-4fa9-a40b-1e0265b9bec3",
+                                "name": "Red Snapper",
+                                "description": "",
+                                "prices": [
+                                    24.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035819388",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "1c1e5877-d975-4976-b7e0-32b29430c666",
+                                "outOfStock": false,
+                                "itemGroupGuid": "d94b73ba-fa42-4fa9-a40b-1e0265b9bec3",
+                                "name": "Shrimps",
+                                "description": "",
+                                "prices": [
+                                    14.99,
+                                    16.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035819390",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "091baf1f-60c3-4b21-b9b6-77080ed80e68",
+                                "outOfStock": false,
+                                "itemGroupGuid": "d94b73ba-fa42-4fa9-a40b-1e0265b9bec3",
+                                "name": "Seafood Combo (1 fish + 10 shrimps & Fries)",
+                                "description": "1 Piece of Fish, 10 shrimps with Fries",
+                                "prices": [
+                                    14.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000637972155",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            }
+                        ],
+                        "__typename": "MenuGroup"
+                    },
+                    {
+                        "name": "SANDWICHES",
+                        "description": "",
+                        "guid": "665acfb9-c002-4f4a-acbb-dfd326975912",
+                        "items": [
+                            {
+                                "guid": "554c739d-926e-4792-894e-c8139e1fa128",
+                                "outOfStock": false,
+                                "itemGroupGuid": "665acfb9-c002-4f4a-acbb-dfd326975912",
+                                "name": "Chicken Shawarma Sandwich",
+                                "description": "Grilled chicken marinated with lebanese shawarma spices, garlic sauce and pickles.",
+                                "prices": [
+                                    12.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035814190",
+                                "imageUrls": {
+                                    "xxl": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/4498d3e7-dc28-47ae-9f80-dbda021fe5b7.jpg?size=xxl",
+                                    "xl": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/4498d3e7-dc28-47ae-9f80-dbda021fe5b7.jpg?size=xl",
+                                    "large": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/4498d3e7-dc28-47ae-9f80-dbda021fe5b7.jpg?size=large",
+                                    "medium": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/4498d3e7-dc28-47ae-9f80-dbda021fe5b7.jpg?size=medium",
+                                    "small": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/4498d3e7-dc28-47ae-9f80-dbda021fe5b7.jpg?size=small",
+                                    "xs": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/4498d3e7-dc28-47ae-9f80-dbda021fe5b7.jpg?size=xs",
+                                    "raw": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/4498d3e7-dc28-47ae-9f80-dbda021fe5b7.jpg",
+                                    "__typename": "ImageSet"
+                                },
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "1caf92ae-6d73-4ca3-9da5-11886297e89a",
+                                "outOfStock": false,
+                                "itemGroupGuid": "665acfb9-c002-4f4a-acbb-dfd326975912",
+                                "name": "Beef Shawarma Sandwich",
+                                "description": "Marinated with shawarma spices, tomato, onion, barsely, sumac, and tahini sauces",
+                                "prices": [
+                                    12.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035814192",
+                                "imageUrls": {
+                                    "xxl": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/57e09aed-41ca-47d5-9b19-bb1a3615ef69.jpg?size=xxl",
+                                    "xl": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/57e09aed-41ca-47d5-9b19-bb1a3615ef69.jpg?size=xl",
+                                    "large": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/57e09aed-41ca-47d5-9b19-bb1a3615ef69.jpg?size=large",
+                                    "medium": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/57e09aed-41ca-47d5-9b19-bb1a3615ef69.jpg?size=medium",
+                                    "small": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/57e09aed-41ca-47d5-9b19-bb1a3615ef69.jpg?size=small",
+                                    "xs": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/57e09aed-41ca-47d5-9b19-bb1a3615ef69.jpg?size=xs",
+                                    "raw": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/57e09aed-41ca-47d5-9b19-bb1a3615ef69.jpg",
+                                    "__typename": "ImageSet"
+                                },
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "3c69ea6c-c198-47ae-8e4b-3a48b83d127f",
+                                "outOfStock": false,
+                                "itemGroupGuid": "665acfb9-c002-4f4a-acbb-dfd326975912",
+                                "name": "Gryo sandwich & Greek Salad",
+                                "description": "",
+                                "prices": [
+                                    17.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000002517107836",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "e103eba6-68fe-41d0-bbe8-08e02c122f96",
+                                "outOfStock": false,
+                                "itemGroupGuid": "665acfb9-c002-4f4a-acbb-dfd326975912",
+                                "name": "Original Gyro Sandwich",
+                                "description": "",
+                                "prices": [
+                                    12.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035814194",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "f16400ef-861b-4a72-8b52-9a04d1150c11",
+                                "outOfStock": false,
+                                "itemGroupGuid": "665acfb9-c002-4f4a-acbb-dfd326975912",
+                                "name": "Chicken Gyro Sandwich",
+                                "description": "",
+                                "prices": [
+                                    12.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035816239",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "7ae979ba-5d06-424a-b023-ac0f5c35fa35",
+                                "outOfStock": false,
+                                "itemGroupGuid": "665acfb9-c002-4f4a-acbb-dfd326975912",
+                                "name": "Falafel Sandwich",
+                                "description": "",
+                                "prices": [
+                                    10.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035814196",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "b5f66f98-84e3-47a8-b808-cab0861ca08f",
+                                "outOfStock": false,
+                                "itemGroupGuid": "665acfb9-c002-4f4a-acbb-dfd326975912",
+                                "name": "Chicken Tawouk Sandwich",
+                                "description": "",
+                                "prices": [
+                                    12.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035814198",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "9ef451ea-80bb-4a22-afa1-6355c1915064",
+                                "outOfStock": false,
+                                "itemGroupGuid": "665acfb9-c002-4f4a-acbb-dfd326975912",
+                                "name": "Steak Hoggie Sandwich",
+                                "description": "",
+                                "prices": [
+                                    12.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035814502",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "9e1de485-d396-4ef2-b8f9-3dbcf75dc66e",
+                                "outOfStock": false,
+                                "itemGroupGuid": "665acfb9-c002-4f4a-acbb-dfd326975912",
+                                "name": "Chicken Hoggie Sandwich",
+                                "description": "",
+                                "prices": [
+                                    12.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035816770",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "ae81fa55-fa70-415c-b41b-d5b0377550cc",
+                                "outOfStock": false,
+                                "itemGroupGuid": "665acfb9-c002-4f4a-acbb-dfd326975912",
+                                "name": "Kafta Sandwich",
+                                "description": "",
+                                "prices": [
+                                    12.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035814500",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "21665521-f88d-4880-bf5f-8d76db53e1f0",
+                                "outOfStock": false,
+                                "itemGroupGuid": "665acfb9-c002-4f4a-acbb-dfd326975912",
+                                "name": "Fish Sandwich",
+                                "description": "",
+                                "prices": [
+                                    12.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035814504",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "c327efc6-f852-4dc0-9396-c823ba9f166c",
+                                "outOfStock": false,
+                                "itemGroupGuid": "665acfb9-c002-4f4a-acbb-dfd326975912",
+                                "name": "Steak Sandwich",
+                                "description": "",
+                                "prices": [
+                                    12.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000002222776171",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            }
+                        ],
+                        "__typename": "MenuGroup"
+                    },
+                    {
+                        "name": "CLASSICS",
+                        "description": "",
+                        "guid": "63b786b8-8ac2-43ed-bf6e-35312f415610",
+                        "items": [
+                            {
+                                "guid": "4028a835-9bad-478c-903c-8e9ec536aa51",
+                                "outOfStock": false,
+                                "itemGroupGuid": "63b786b8-8ac2-43ed-bf6e-35312f415610",
+                                "name": "Cheeseburger",
+                                "description": "",
+                                "prices": [
+                                    12.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035817286",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "9e721ae7-2931-4bcb-90a4-428bf05d343b",
+                                "outOfStock": false,
+                                "itemGroupGuid": "63b786b8-8ac2-43ed-bf6e-35312f415610",
+                                "name": "Chicken tenders",
+                                "description": "",
+                                "prices": [
+                                    8.99,
+                                    11.99,
+                                    15.99,
+                                    17.99,
+                                    28.99,
+                                    38.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035817288",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "de5d7ead-a15c-4157-9c51-3640e9801e31",
+                                "outOfStock": false,
+                                "itemGroupGuid": "63b786b8-8ac2-43ed-bf6e-35312f415610",
+                                "name": "Chicken Gissards",
+                                "description": "",
+                                "prices": [
+                                    6.99,
+                                    9.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035817290",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "1a763de5-809c-4caf-88f8-743a7bfa03d0",
+                                "outOfStock": false,
+                                "itemGroupGuid": "63b786b8-8ac2-43ed-bf6e-35312f415610",
+                                "name": "Wings",
+                                "description": "",
+                                "prices": [
+                                    8.99,
+                                    10.99,
+                                    15.99,
+                                    17.99,
+                                    28.99,
+                                    38.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035817292",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "f034a5cb-8a1e-4e68-ae6b-36f7ede05ea5",
+                                "outOfStock": false,
+                                "itemGroupGuid": "63b786b8-8ac2-43ed-bf6e-35312f415610",
+                                "name": "Combo wings & shrimps",
+                                "description": "",
+                                "prices": [
+                                    20.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035817294",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "c5e96c7b-500e-48bc-bf86-7c2550f034a2",
+                                "outOfStock": false,
+                                "itemGroupGuid": "63b786b8-8ac2-43ed-bf6e-35312f415610",
+                                "name": "Combo Zings & shrimps",
+                                "description": "",
+                                "prices": [
+                                    20.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000001074793490",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "6509d052-176e-40f1-a898-8ee8db69a638",
+                                "outOfStock": false,
+                                "itemGroupGuid": "63b786b8-8ac2-43ed-bf6e-35312f415610",
+                                "name": "Zings",
+                                "description": "",
+                                "prices": [
+                                    8.99,
+                                    10.99,
+                                    15.99,
+                                    17.99,
+                                    28.99,
+                                    38.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000001170532124",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            }
+                        ],
+                        "__typename": "MenuGroup"
+                    },
+                    {
+                        "name": "SALADS",
+                        "description": "",
+                        "guid": "0bc10ca0-549b-4c7d-8e64-2fb9eb436dc1",
+                        "items": [
+                            {
+                                "guid": "ace3b8a7-774c-43b7-96a0-2a6bcad18971",
+                                "outOfStock": false,
+                                "itemGroupGuid": "0bc10ca0-549b-4c7d-8e64-2fb9eb436dc1",
+                                "name": "TOSSED SALAD",
+                                "description": "",
+                                "prices": [
+                                    9.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035824818",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "2c006ae7-d5fb-48ea-8ee4-d2372131274a",
+                                "outOfStock": false,
+                                "itemGroupGuid": "0bc10ca0-549b-4c7d-8e64-2fb9eb436dc1",
+                                "name": "GREEK SALAD",
+                                "description": "",
+                                "prices": [
+                                    14.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035824810",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "72c5dd71-5a04-4c3d-86de-98ad3d688a4c",
+                                "outOfStock": false,
+                                "itemGroupGuid": "0bc10ca0-549b-4c7d-8e64-2fb9eb436dc1",
+                                "name": "CHICKEN SALAD",
+                                "description": "",
+                                "prices": [
+                                    14.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035824812",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "a1c312ae-1fd1-44f2-ba39-fb01320aeb42",
+                                "outOfStock": false,
+                                "itemGroupGuid": "0bc10ca0-549b-4c7d-8e64-2fb9eb436dc1",
+                                "name": "GYRO SALAD",
+                                "description": "",
+                                "prices": [
+                                    14.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035824814",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "15dfc7e6-0c08-4ae4-bafc-3e9ba3e573a4",
+                                "outOfStock": false,
+                                "itemGroupGuid": "0bc10ca0-549b-4c7d-8e64-2fb9eb436dc1",
+                                "name": "FALAFEL SALAD",
+                                "description": "",
+                                "prices": [
+                                    14.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035824816",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "16e91592-585c-4e7d-bc67-805888304198",
+                                "outOfStock": false,
+                                "itemGroupGuid": "0bc10ca0-549b-4c7d-8e64-2fb9eb436dc1",
+                                "name": "FISH SALAD",
+                                "description": "",
+                                "prices": [
+                                    14.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035824820",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "6cdb27d6-1246-4ec5-b53e-7f33bd20cd33",
+                                "outOfStock": false,
+                                "itemGroupGuid": "0bc10ca0-549b-4c7d-8e64-2fb9eb436dc1",
+                                "name": "SHRIMP SALAD",
+                                "description": "",
+                                "prices": [
+                                    14.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035824822",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "f6671d52-4dcf-4040-82b3-b5f34a3ce64c",
+                                "outOfStock": false,
+                                "itemGroupGuid": "0bc10ca0-549b-4c7d-8e64-2fb9eb436dc1",
+                                "name": "FATOUSH SALAD",
+                                "description": "",
+                                "prices": [
+                                    14.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035824824",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "a52f2548-5c58-4a83-acaa-92dd12257a78",
+                                "outOfStock": false,
+                                "itemGroupGuid": "0bc10ca0-549b-4c7d-8e64-2fb9eb436dc1",
+                                "name": "Potato salad",
+                                "description": "",
+                                "prices": [
+                                    4.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000002097795041",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            }
+                        ],
+                        "__typename": "MenuGroup"
+                    },
+                    {
+                        "name": "APPETIZERS",
+                        "description": "",
+                        "guid": "946acc00-bfb9-4b94-9667-d8c66808f87e",
+                        "items": [
+                            {
+                                "guid": "3a304f73-9ada-46fc-9358-0c4a859cc60c",
+                                "outOfStock": false,
+                                "itemGroupGuid": "946acc00-bfb9-4b94-9667-d8c66808f87e",
+                                "name": "Falafel",
+                                "description": "Blended chickpeas, herbs, toasted sesame seeds & tahini sauce served with chopchop salad and pita bread",
+                                "prices": [
+                                    7.99,
+                                    13.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000034333842",
+                                "imageUrls": {
+                                    "xxl": "https://d2s742iet3d3t1.cloudfront.net/restaurants/restaurant-207631000000000000/menu/items/8/item-1200000000034333848_1735591802.jpg?size=xxl",
+                                    "xl": "https://d2s742iet3d3t1.cloudfront.net/restaurants/restaurant-207631000000000000/menu/items/8/item-1200000000034333848_1735591802.jpg?size=xl",
+                                    "large": "https://d2s742iet3d3t1.cloudfront.net/restaurants/restaurant-207631000000000000/menu/items/8/item-1200000000034333848_1735591802.jpg?size=large",
+                                    "medium": "https://d2s742iet3d3t1.cloudfront.net/restaurants/restaurant-207631000000000000/menu/items/8/item-1200000000034333848_1735591802.jpg?size=medium",
+                                    "small": "https://d2s742iet3d3t1.cloudfront.net/restaurants/restaurant-207631000000000000/menu/items/8/item-1200000000034333848_1735591802.jpg?size=small",
+                                    "xs": "https://d2s742iet3d3t1.cloudfront.net/restaurants/restaurant-207631000000000000/menu/items/8/item-1200000000034333848_1735591802.jpg?size=xs",
+                                    "raw": "https://d2s742iet3d3t1.cloudfront.net/restaurants/restaurant-207631000000000000/menu/items/8/item-1200000000034333848_1735591802.jpg",
+                                    "__typename": "ImageSet"
+                                },
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "7d42ec91-acc6-4ad7-95a1-8b4a3351182b",
+                                "outOfStock": true,
+                                "itemGroupGuid": "946acc00-bfb9-4b94-9667-d8c66808f87e",
+                                "name": "Lentil soup",
+                                "description": "",
+                                "prices": [
+                                    7.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035789978",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "58085df0-10aa-4b1f-a283-7b4eb426999a",
+                                "outOfStock": false,
+                                "itemGroupGuid": "946acc00-bfb9-4b94-9667-d8c66808f87e",
+                                "name": "Hummus",
+                                "description": "Mashed chickpeas mixed with tahini sauce & Lebanese herbs and spices served with pita bread",
+                                "prices": [
+                                    6.99,
+                                    9.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035789980",
+                                "imageUrls": {
+                                    "xxl": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/28ecb10c-a19b-488b-a4bd-455ee459edb9.png?size=xxl",
+                                    "xl": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/28ecb10c-a19b-488b-a4bd-455ee459edb9.png?size=xl",
+                                    "large": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/28ecb10c-a19b-488b-a4bd-455ee459edb9.png?size=large",
+                                    "medium": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/28ecb10c-a19b-488b-a4bd-455ee459edb9.png?size=medium",
+                                    "small": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/28ecb10c-a19b-488b-a4bd-455ee459edb9.png?size=small",
+                                    "xs": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/28ecb10c-a19b-488b-a4bd-455ee459edb9.png?size=xs",
+                                    "raw": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/28ecb10c-a19b-488b-a4bd-455ee459edb9.png",
+                                    "__typename": "ImageSet"
+                                },
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "7ab43184-6b49-4de8-9a56-18f41ad41cc2",
+                                "outOfStock": false,
+                                "itemGroupGuid": "946acc00-bfb9-4b94-9667-d8c66808f87e",
+                                "name": "Baba Ganoush",
+                                "description": "Mashed roasted eggplant mixed with tahini sauce and special Lebanese herbs and spices served with Pita bread",
+                                "prices": [
+                                    6.99,
+                                    9.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035789982",
+                                "imageUrls": {
+                                    "xxl": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/7890c2f9-722d-4dd3-bdca-109606578524.png?size=xxl",
+                                    "xl": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/7890c2f9-722d-4dd3-bdca-109606578524.png?size=xl",
+                                    "large": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/7890c2f9-722d-4dd3-bdca-109606578524.png?size=large",
+                                    "medium": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/7890c2f9-722d-4dd3-bdca-109606578524.png?size=medium",
+                                    "small": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/7890c2f9-722d-4dd3-bdca-109606578524.png?size=small",
+                                    "xs": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/7890c2f9-722d-4dd3-bdca-109606578524.png?size=xs",
+                                    "raw": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/7890c2f9-722d-4dd3-bdca-109606578524.png",
+                                    "__typename": "ImageSet"
+                                },
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "a9a0fd08-5b38-4cfe-bcdb-4ee1124155ad",
+                                "outOfStock": false,
+                                "itemGroupGuid": "946acc00-bfb9-4b94-9667-d8c66808f87e",
+                                "name": "Taboule",
+                                "description": "Parsley, tomatoes, green onions, mint, olive oil, lemon juice and Lebanese spices.",
+                                "prices": [
+                                    7.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035789984",
+                                "imageUrls": {
+                                    "xxl": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/1934381a-0385-49f4-b4e3-bca313cd47b0.jpg?size=xxl",
+                                    "xl": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/1934381a-0385-49f4-b4e3-bca313cd47b0.jpg?size=xl",
+                                    "large": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/1934381a-0385-49f4-b4e3-bca313cd47b0.jpg?size=large",
+                                    "medium": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/1934381a-0385-49f4-b4e3-bca313cd47b0.jpg?size=medium",
+                                    "small": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/1934381a-0385-49f4-b4e3-bca313cd47b0.jpg?size=small",
+                                    "xs": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/1934381a-0385-49f4-b4e3-bca313cd47b0.jpg?size=xs",
+                                    "raw": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/1934381a-0385-49f4-b4e3-bca313cd47b0.jpg",
+                                    "__typename": "ImageSet"
+                                },
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "6a38c48a-49b7-46e0-a141-6821e3b8c932",
+                                "outOfStock": false,
+                                "itemGroupGuid": "946acc00-bfb9-4b94-9667-d8c66808f87e",
+                                "name": "Shrimps",
+                                "description": "",
+                                "prices": [
+                                    11.99,
+                                    20.99,
+                                    15.99,
+                                    25.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035789988",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "9c8bee35-5792-475b-b5d5-3fcc657f9bd6",
+                                "outOfStock": false,
+                                "itemGroupGuid": "946acc00-bfb9-4b94-9667-d8c66808f87e",
+                                "name": "Veggie lovers",
+                                "description": "Baba ganoush, hummus, tabouleh, cauliflower served with pita bread.",
+                                "prices": [
+                                    13.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035789990",
+                                "imageUrls": {
+                                    "xxl": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/4d160b96-36da-4afc-ad2f-56816fb96570.jpg?size=xxl",
+                                    "xl": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/4d160b96-36da-4afc-ad2f-56816fb96570.jpg?size=xl",
+                                    "large": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/4d160b96-36da-4afc-ad2f-56816fb96570.jpg?size=large",
+                                    "medium": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/4d160b96-36da-4afc-ad2f-56816fb96570.jpg?size=medium",
+                                    "small": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/4d160b96-36da-4afc-ad2f-56816fb96570.jpg?size=small",
+                                    "xs": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/4d160b96-36da-4afc-ad2f-56816fb96570.jpg?size=xs",
+                                    "raw": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/4d160b96-36da-4afc-ad2f-56816fb96570.jpg",
+                                    "__typename": "ImageSet"
+                                },
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "e91461ae-b9ab-4051-b9b0-d5418d17cc05",
+                                "outOfStock": false,
+                                "itemGroupGuid": "946acc00-bfb9-4b94-9667-d8c66808f87e",
+                                "name": "Rice & Beens",
+                                "description": "",
+                                "prices": [
+                                    6.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035803787",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "8e07cd69-a8d5-423c-9ae4-a6f86f04db98",
+                                "outOfStock": false,
+                                "itemGroupGuid": "946acc00-bfb9-4b94-9667-d8c66808f87e",
+                                "name": "Cheese rolls",
+                                "description": "Lebanese Fried Cheese Roll Wrappers, freshly made. Perfectly baked to a crispy finish, these savory delights are an irresistible appetizer\n",
+                                "prices": [
+                                    4.99,
+                                    8.99,
+                                    4.99,
+                                    8.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035803789",
+                                "imageUrls": {
+                                    "xxl": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/7d6aa0cf-01fc-438e-939e-3cceaf95bce3.png?size=xxl",
+                                    "xl": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/7d6aa0cf-01fc-438e-939e-3cceaf95bce3.png?size=xl",
+                                    "large": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/7d6aa0cf-01fc-438e-939e-3cceaf95bce3.png?size=large",
+                                    "medium": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/7d6aa0cf-01fc-438e-939e-3cceaf95bce3.png?size=medium",
+                                    "small": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/7d6aa0cf-01fc-438e-939e-3cceaf95bce3.png?size=small",
+                                    "xs": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/7d6aa0cf-01fc-438e-939e-3cceaf95bce3.png?size=xs",
+                                    "raw": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/7d6aa0cf-01fc-438e-939e-3cceaf95bce3.png",
+                                    "__typename": "ImageSet"
+                                },
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "550d8894-1972-47af-8366-e7da5a851ccb",
+                                "outOfStock": false,
+                                "itemGroupGuid": "946acc00-bfb9-4b94-9667-d8c66808f87e",
+                                "name": "Fried mushroom",
+                                "description": "",
+                                "prices": [
+                                    6.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035803783",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "c02afa8e-3599-448b-b8c3-857a2856f073",
+                                "outOfStock": false,
+                                "itemGroupGuid": "946acc00-bfb9-4b94-9667-d8c66808f87e",
+                                "name": "Fried Onion rings",
+                                "description": "",
+                                "prices": [
+                                    6.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035803785",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "d0e2366d-7d04-4a13-a502-d4f353935c98",
+                                "outOfStock": false,
+                                "itemGroupGuid": "946acc00-bfb9-4b94-9667-d8c66808f87e",
+                                "name": "Fried Calamri rings",
+                                "description": "",
+                                "prices": [
+                                    8.99,
+                                    15.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035789986",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "59fc8f78-a761-4fb9-8d25-f3f0adb0a7c1",
+                                "outOfStock": false,
+                                "itemGroupGuid": "946acc00-bfb9-4b94-9667-d8c66808f87e",
+                                "name": "Grape leaves",
+                                "description": "",
+                                "prices": [
+                                    7.99,
+                                    12.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000092998502",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "4a3b7d64-d3fa-45de-ba37-85b70f7df5dc",
+                                "outOfStock": false,
+                                "itemGroupGuid": "946acc00-bfb9-4b94-9667-d8c66808f87e",
+                                "name": "Kebbeh-",
+                                "description": "",
+                                "prices": [
+                                    13.99,
+                                    23.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000001032168207",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            }
+                        ],
+                        "__typename": "MenuGroup"
+                    },
+                    {
+                        "name": "SIDES",
+                        "description": "",
+                        "guid": "77c3b922-571a-4a6f-8f5c-6a8728e0e071",
+                        "items": [
+                            {
+                                "guid": "754bf315-ea7f-4e61-aa6a-25551d82c9c3",
+                                "outOfStock": false,
+                                "itemGroupGuid": "77c3b922-571a-4a6f-8f5c-6a8728e0e071",
+                                "name": "CHOP CHOP SALAD",
+                                "description": "",
+                                "prices": [
+                                    4.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035826162",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "b97ea35d-8aa4-4e85-86bd-dc0f887b8eef",
+                                "outOfStock": false,
+                                "itemGroupGuid": "77c3b922-571a-4a6f-8f5c-6a8728e0e071",
+                                "name": "BLACK BEANS",
+                                "description": "",
+                                "prices": [
+                                    4.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035826164",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "082ffda5-a235-4270-8b73-23701e0b2345",
+                                "outOfStock": false,
+                                "itemGroupGuid": "77c3b922-571a-4a6f-8f5c-6a8728e0e071",
+                                "name": "RICE",
+                                "description": "",
+                                "prices": [
+                                    4.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035826166",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "e3c2c2fe-907c-4f12-a607-e54845b4e101",
+                                "outOfStock": false,
+                                "itemGroupGuid": "77c3b922-571a-4a6f-8f5c-6a8728e0e071",
+                                "name": "FRIES",
+                                "description": "",
+                                "prices": [
+                                    4.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035826168",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            }
+                        ],
+                        "__typename": "MenuGroup"
+                    },
+                    {
+                        "name": "DESSERTS",
+                        "description": "",
+                        "guid": "91bc7d00-950a-4f7c-a8fc-11ab57d7a4f0",
+                        "items": [
+                            {
+                                "guid": "4e272bb2-c4f7-4229-85e6-ee7ece2d58eb",
+                                "outOfStock": false,
+                                "itemGroupGuid": "91bc7d00-950a-4f7c-a8fc-11ab57d7a4f0",
+                                "name": "Baklawa",
+                                "description": "",
+                                "prices": [
+                                    2.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035825859",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "3aafc780-57df-4c98-ac57-f45b680343aa",
+                                "outOfStock": false,
+                                "itemGroupGuid": "91bc7d00-950a-4f7c-a8fc-11ab57d7a4f0",
+                                "name": "Chocolate Cake",
+                                "description": "",
+                                "prices": [
+                                    6.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035825861",
+                                "imageUrls": {
+                                    "xxl": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/c450f504-d003-4050-8d8a-978f6ab5ddb5.jpg?size=xxl",
+                                    "xl": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/c450f504-d003-4050-8d8a-978f6ab5ddb5.jpg?size=xl",
+                                    "large": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/c450f504-d003-4050-8d8a-978f6ab5ddb5.jpg?size=large",
+                                    "medium": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/c450f504-d003-4050-8d8a-978f6ab5ddb5.jpg?size=medium",
+                                    "small": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/c450f504-d003-4050-8d8a-978f6ab5ddb5.jpg?size=small",
+                                    "xs": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/c450f504-d003-4050-8d8a-978f6ab5ddb5.jpg?size=xs",
+                                    "raw": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/c450f504-d003-4050-8d8a-978f6ab5ddb5.jpg",
+                                    "__typename": "ImageSet"
+                                },
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "2161cceb-3c1d-4f51-b006-87e6140b8694",
+                                "outOfStock": false,
+                                "itemGroupGuid": "91bc7d00-950a-4f7c-a8fc-11ab57d7a4f0",
+                                "name": "Cheesecake",
+                                "description": "",
+                                "prices": [
+                                    6.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035825863",
+                                "imageUrls": {
+                                    "xxl": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/fe536546-acad-431c-882c-e4d5a5009e59.jpg?size=xxl",
+                                    "xl": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/fe536546-acad-431c-882c-e4d5a5009e59.jpg?size=xl",
+                                    "large": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/fe536546-acad-431c-882c-e4d5a5009e59.jpg?size=large",
+                                    "medium": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/fe536546-acad-431c-882c-e4d5a5009e59.jpg?size=medium",
+                                    "small": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/fe536546-acad-431c-882c-e4d5a5009e59.jpg?size=small",
+                                    "xs": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/fe536546-acad-431c-882c-e4d5a5009e59.jpg?size=xs",
+                                    "raw": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/fe536546-acad-431c-882c-e4d5a5009e59.jpg",
+                                    "__typename": "ImageSet"
+                                },
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "547d7a1c-bc7a-404d-b463-932371263ded",
+                                "outOfStock": false,
+                                "itemGroupGuid": "91bc7d00-950a-4f7c-a8fc-11ab57d7a4f0",
+                                "name": "Strawberry Cheesecake",
+                                "description": "",
+                                "prices": [
+                                    6.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035825865",
+                                "imageUrls": {
+                                    "xxl": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/7168b59b-ee18-4a70-9cd6-df4b9191337d.jpg?size=xxl",
+                                    "xl": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/7168b59b-ee18-4a70-9cd6-df4b9191337d.jpg?size=xl",
+                                    "large": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/7168b59b-ee18-4a70-9cd6-df4b9191337d.jpg?size=large",
+                                    "medium": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/7168b59b-ee18-4a70-9cd6-df4b9191337d.jpg?size=medium",
+                                    "small": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/7168b59b-ee18-4a70-9cd6-df4b9191337d.jpg?size=small",
+                                    "xs": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/7168b59b-ee18-4a70-9cd6-df4b9191337d.jpg?size=xs",
+                                    "raw": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/7168b59b-ee18-4a70-9cd6-df4b9191337d.jpg",
+                                    "__typename": "ImageSet"
+                                },
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "a9b46c98-c2d6-4702-881a-19f0d4fb6dec",
+                                "outOfStock": false,
+                                "itemGroupGuid": "91bc7d00-950a-4f7c-a8fc-11ab57d7a4f0",
+                                "name": "Carrot Cake",
+                                "description": "",
+                                "prices": [
+                                    6.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000037360641",
+                                "imageUrls": {
+                                    "xxl": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/994936b4-41a3-42b4-9974-48585b50b764.jpg?size=xxl",
+                                    "xl": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/994936b4-41a3-42b4-9974-48585b50b764.jpg?size=xl",
+                                    "large": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/994936b4-41a3-42b4-9974-48585b50b764.jpg?size=large",
+                                    "medium": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/994936b4-41a3-42b4-9974-48585b50b764.jpg?size=medium",
+                                    "small": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/994936b4-41a3-42b4-9974-48585b50b764.jpg?size=small",
+                                    "xs": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/994936b4-41a3-42b4-9974-48585b50b764.jpg?size=xs",
+                                    "raw": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/994936b4-41a3-42b4-9974-48585b50b764.jpg",
+                                    "__typename": "ImageSet"
+                                },
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "a7d2afc0-cca6-4a59-a599-bc47bfa42299",
+                                "outOfStock": false,
+                                "itemGroupGuid": "91bc7d00-950a-4f7c-a8fc-11ab57d7a4f0",
+                                "name": "Red velvet",
+                                "description": "",
+                                "prices": [
+                                    6.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000037360643",
+                                "imageUrls": {
+                                    "xxl": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/d48983b3-bb0a-4082-9400-305da0200864.jpg?size=xxl",
+                                    "xl": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/d48983b3-bb0a-4082-9400-305da0200864.jpg?size=xl",
+                                    "large": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/d48983b3-bb0a-4082-9400-305da0200864.jpg?size=large",
+                                    "medium": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/d48983b3-bb0a-4082-9400-305da0200864.jpg?size=medium",
+                                    "small": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/d48983b3-bb0a-4082-9400-305da0200864.jpg?size=small",
+                                    "xs": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/d48983b3-bb0a-4082-9400-305da0200864.jpg?size=xs",
+                                    "raw": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/d48983b3-bb0a-4082-9400-305da0200864.jpg",
+                                    "__typename": "ImageSet"
+                                },
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "46a86241-76dc-4798-9b95-497456bb60d4",
+                                "outOfStock": false,
+                                "itemGroupGuid": "91bc7d00-950a-4f7c-a8fc-11ab57d7a4f0",
+                                "name": "Lemon Italian Cake",
+                                "description": "",
+                                "prices": [
+                                    6.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000037361689",
+                                "imageUrls": {
+                                    "xxl": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/5d034f46-a204-4296-aa9b-5ae5a2beac23.jpg?size=xxl",
+                                    "xl": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/5d034f46-a204-4296-aa9b-5ae5a2beac23.jpg?size=xl",
+                                    "large": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/5d034f46-a204-4296-aa9b-5ae5a2beac23.jpg?size=large",
+                                    "medium": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/5d034f46-a204-4296-aa9b-5ae5a2beac23.jpg?size=medium",
+                                    "small": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/5d034f46-a204-4296-aa9b-5ae5a2beac23.jpg?size=small",
+                                    "xs": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/5d034f46-a204-4296-aa9b-5ae5a2beac23.jpg?size=xs",
+                                    "raw": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/5d034f46-a204-4296-aa9b-5ae5a2beac23.jpg",
+                                    "__typename": "ImageSet"
+                                },
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "32a87e29-d7dc-4166-bb64-9f72ba582319",
+                                "outOfStock": false,
+                                "itemGroupGuid": "91bc7d00-950a-4f7c-a8fc-11ab57d7a4f0",
+                                "name": "Hazelnut crunch square",
+                                "description": "",
+                                "prices": [
+                                    6.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000001150563188",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "58fa414f-ae77-42ee-938f-1eedecc70376",
+                                "outOfStock": false,
+                                "itemGroupGuid": "91bc7d00-950a-4f7c-a8fc-11ab57d7a4f0",
+                                "name": "Cookie Butter Banana pie",
+                                "description": "",
+                                "prices": [
+                                    6.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000001150563190",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            }
+                        ],
+                        "__typename": "MenuGroup"
+                    },
+                    {
+                        "name": "DRINKS",
+                        "description": "",
+                        "guid": "dcc9f0bd-14be-4f3c-b4b4-bc40ae2e8f18",
+                        "items": [
+                            {
+                                "guid": "d20c82c2-e035-4e7f-945f-115e63c77201",
+                                "outOfStock": false,
+                                "itemGroupGuid": "dcc9f0bd-14be-4f3c-b4b4-bc40ae2e8f18",
+                                "name": "FOUNTAIN",
+                                "description": "",
+                                "prices": [
+                                    2.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035824939",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "cb232595-33f5-4d00-8a0f-1a9768bc15c3",
+                                "outOfStock": false,
+                                "itemGroupGuid": "dcc9f0bd-14be-4f3c-b4b4-bc40ae2e8f18",
+                                "name": "SMOOTHIE",
+                                "description": "",
+                                "prices": [
+                                    7.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035824941",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "681108a7-d502-4475-af1f-42244c6b8852",
+                                "outOfStock": false,
+                                "itemGroupGuid": "dcc9f0bd-14be-4f3c-b4b4-bc40ae2e8f18",
+                                "name": "JARRITO",
+                                "description": "",
+                                "prices": [
+                                    2.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035824943",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "f78782fd-c372-4b09-8168-7a7158ded298",
+                                "outOfStock": false,
+                                "itemGroupGuid": "dcc9f0bd-14be-4f3c-b4b4-bc40ae2e8f18",
+                                "name": "Water bottle",
+                                "description": "",
+                                "prices": [
+                                    1.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000035824945",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "9fcbdb42-0bfe-4e6b-a429-09563e1883eb",
+                                "outOfStock": false,
+                                "itemGroupGuid": "dcc9f0bd-14be-4f3c-b4b4-bc40ae2e8f18",
+                                "name": "Ayran yugart drink",
+                                "description": "",
+                                "prices": [
+                                    2.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000001074836596",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "addd5ce8-ab71-4206-8ce2-26f745fdf5e8",
+                                "outOfStock": false,
+                                "itemGroupGuid": "dcc9f0bd-14be-4f3c-b4b4-bc40ae2e8f18",
+                                "name": "Apple Juice",
+                                "description": "",
+                                "prices": [
+                                    2.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000002518714421",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "d5f3b6d5-ef30-4659-9187-891c0e71724b",
+                                "outOfStock": false,
+                                "itemGroupGuid": "dcc9f0bd-14be-4f3c-b4b4-bc40ae2e8f18",
+                                "name": "Laziza",
+                                "description": "",
+                                "prices": [
+                                    2.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000003249339020",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            }
+                        ],
+                        "__typename": "MenuGroup"
+                    },
+                    {
+                        "name": "EXTRAS",
+                        "description": "",
+                        "guid": "5505b5fe-5125-4238-b6b2-9f11ebade344",
+                        "items": [
+                            {
+                                "guid": "72634a50-f6fa-4500-87fe-ea5b5fc97ed2",
+                                "outOfStock": false,
+                                "itemGroupGuid": "5505b5fe-5125-4238-b6b2-9f11ebade344",
+                                "name": "Pita Bread",
+                                "description": "",
+                                "prices": [
+                                    1
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000152823425",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "2cb66f48-449b-49ed-b5ec-e322ec25cccd",
+                                "outOfStock": false,
+                                "itemGroupGuid": "5505b5fe-5125-4238-b6b2-9f11ebade344",
+                                "name": "5oz Gyro Meat",
+                                "description": "",
+                                "prices": [
+                                    5.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000184097114",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "f6bd3edc-864a-4a82-9e7e-97e64273d884",
+                                "outOfStock": false,
+                                "itemGroupGuid": "5505b5fe-5125-4238-b6b2-9f11ebade344",
+                                "name": "5oz Chicken Shawarma",
+                                "description": "",
+                                "prices": [
+                                    5.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000184097116",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "061fa246-6540-49e6-8a77-2a176442c40c",
+                                "outOfStock": false,
+                                "itemGroupGuid": "5505b5fe-5125-4238-b6b2-9f11ebade344",
+                                "name": "5oz Beef Shawarma",
+                                "description": "",
+                                "prices": [
+                                    5.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000184097118",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "274ae855-cf2f-4fb1-a0b5-fd9f7c89afb7",
+                                "outOfStock": false,
+                                "itemGroupGuid": "5505b5fe-5125-4238-b6b2-9f11ebade344",
+                                "name": "Hot Sauce",
+                                "description": "",
+                                "prices": [
+                                    0.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000235673518",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "9a8b4140-e32b-4e8e-885f-294bde4a3c08",
+                                "outOfStock": false,
+                                "itemGroupGuid": "5505b5fe-5125-4238-b6b2-9f11ebade344",
+                                "name": "Tahini Sauce",
+                                "description": "",
+                                "prices": [
+                                    0.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000235673520",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "5cca9567-134b-446d-8895-2c99035039cb",
+                                "outOfStock": false,
+                                "itemGroupGuid": "5505b5fe-5125-4238-b6b2-9f11ebade344",
+                                "name": "Garlic Sauce",
+                                "description": "",
+                                "prices": [
+                                    0.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000235673522",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "17b58da2-eab3-4952-8b12-c1908f0f38a5",
+                                "outOfStock": false,
+                                "itemGroupGuid": "5505b5fe-5125-4238-b6b2-9f11ebade344",
+                                "name": "Blue cheese Sauce",
+                                "description": "",
+                                "prices": [
+                                    0.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000235673524",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "bf87a8a1-3eae-4ada-906d-8d1d302ed340",
+                                "outOfStock": false,
+                                "itemGroupGuid": "5505b5fe-5125-4238-b6b2-9f11ebade344",
+                                "name": "Ranch Sauce",
+                                "description": "",
+                                "prices": [
+                                    0.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000235673526",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "4a294535-f712-4192-8edf-e2a58b7875a0",
+                                "outOfStock": false,
+                                "itemGroupGuid": "5505b5fe-5125-4238-b6b2-9f11ebade344",
+                                "name": "Honey Mustard Sauce",
+                                "description": "",
+                                "prices": [
+                                    0.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000235673528",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "e4cc6c04-8f7f-4447-a8d1-31ec6cd09a61",
+                                "outOfStock": false,
+                                "itemGroupGuid": "5505b5fe-5125-4238-b6b2-9f11ebade344",
+                                "name": "Honey BBQ Sauce",
+                                "description": "",
+                                "prices": [
+                                    0.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000235673530",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "bb381034-4bfa-41fe-b273-80c1610cc2a7",
+                                "outOfStock": false,
+                                "itemGroupGuid": "5505b5fe-5125-4238-b6b2-9f11ebade344",
+                                "name": "BBQ Sauce",
+                                "description": "",
+                                "prices": [
+                                    0.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000235673532",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "ac735bbc-d361-4aa7-9a1a-198224700338",
+                                "outOfStock": false,
+                                "itemGroupGuid": "5505b5fe-5125-4238-b6b2-9f11ebade344",
+                                "name": "Cilantro Sauce",
+                                "description": "",
+                                "prices": [
+                                    0.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000235673534",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "56690b95-c3d7-46ee-974e-7e9b29ac2219",
+                                "outOfStock": false,
+                                "itemGroupGuid": "5505b5fe-5125-4238-b6b2-9f11ebade344",
+                                "name": "Taziki Sauce",
+                                "description": "",
+                                "prices": [
+                                    0.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000000235673536",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "f514f9e6-92f0-452e-bcbb-8c0d4349a73e",
+                                "outOfStock": false,
+                                "itemGroupGuid": "5505b5fe-5125-4238-b6b2-9f11ebade344",
+                                "name": "Cocktail sauce",
+                                "description": "",
+                                "prices": [
+                                    0.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000002518527471",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "efe0be7b-3220-4ddf-bce8-bc3d1c10d003",
+                                "outOfStock": false,
+                                "itemGroupGuid": "5505b5fe-5125-4238-b6b2-9f11ebade344",
+                                "name": "Tartar Sauce",
+                                "description": "",
+                                "prices": [
+                                    0.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000002518527473",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "4cb5bf0f-ce66-4856-83de-1e4246a63270",
+                                "outOfStock": false,
+                                "itemGroupGuid": "5505b5fe-5125-4238-b6b2-9f11ebade344",
+                                "name": "House dressing for Salad",
+                                "description": "",
+                                "prices": [
+                                    0.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000002518539702",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            },
+                            {
+                                "guid": "4fc1108d-672d-4ecf-9ccb-834df0f951aa",
+                                "outOfStock": false,
+                                "itemGroupGuid": "5505b5fe-5125-4238-b6b2-9f11ebade344",
+                                "name": "Grill veggie",
+                                "description": "",
+                                "prices": [
+                                    4.99
+                                ],
+                                "defaultModifiersPrice": 0,
+                                "masterId": "1200000002097726993",
+                                "imageUrls": null,
+                                "unitOfMeasure": "NONE",
+                                "usesFractionalQuantity": false,
+                                "timeBasedRules": null,
+                                "itemTags": [],
+                                "__typename": "MenuItem"
+                            }
+                        ],
+                        "__typename": "MenuGroup"
+                    }
+                ],
+                "__typename": "Menu"
+            }
+        ],
+        "items": null,
+        "groupings": [
+            {
+                "name": "Main Menu",
+                "guid": "030a5741-db2e-4bb8-bdbd-b45b11e0ef00",
+                "itemCount": 94,
+                "children": [
+                    {
+                        "name": "CHICKEN & BEEF PLATTERS",
+                        "guid": "9f593b81-14ea-4766-b82a-5b001e4689a3",
+                        "itemCount": 8,
+                        "children": [],
+                        "__typename": "MenuGrouping"
+                    },
+                    {
+                        "name": "SEAFOOD PLATTERS",
+                        "guid": "d94b73ba-fa42-4fa9-a40b-1e0265b9bec3",
+                        "itemCount": 6,
+                        "children": [],
+                        "__typename": "MenuGrouping"
+                    },
+                    {
+                        "name": "SANDWICHES",
+                        "guid": "665acfb9-c002-4f4a-acbb-dfd326975912",
+                        "itemCount": 12,
+                        "children": [],
+                        "__typename": "MenuGrouping"
+                    },
+                    {
+                        "name": "CLASSICS",
+                        "guid": "63b786b8-8ac2-43ed-bf6e-35312f415610",
+                        "itemCount": 7,
+                        "children": [],
+                        "__typename": "MenuGrouping"
+                    },
+                    {
+                        "name": "SALADS",
+                        "guid": "0bc10ca0-549b-4c7d-8e64-2fb9eb436dc1",
+                        "itemCount": 9,
+                        "children": [],
+                        "__typename": "MenuGrouping"
+                    },
+                    {
+                        "name": "APPETIZERS",
+                        "guid": "946acc00-bfb9-4b94-9667-d8c66808f87e",
+                        "itemCount": 14,
+                        "children": [],
+                        "__typename": "MenuGrouping"
+                    },
+                    {
+                        "name": "SIDES",
+                        "guid": "77c3b922-571a-4a6f-8f5c-6a8728e0e071",
+                        "itemCount": 4,
+                        "children": [],
+                        "__typename": "MenuGrouping"
+                    },
+                    {
+                        "name": "DESSERTS",
+                        "guid": "91bc7d00-950a-4f7c-a8fc-11ab57d7a4f0",
+                        "itemCount": 9,
+                        "children": [],
+                        "__typename": "MenuGrouping"
+                    },
+                    {
+                        "name": "DRINKS",
+                        "guid": "dcc9f0bd-14be-4f3c-b4b4-bc40ae2e8f18",
+                        "itemCount": 7,
+                        "children": [],
+                        "__typename": "MenuGrouping"
+                    },
+                    {
+                        "name": "EXTRAS",
+                        "guid": "5505b5fe-5125-4238-b6b2-9f11ebade344",
+                        "itemCount": 18,
+                        "children": [],
+                        "__typename": "MenuGrouping"
+                    }
+                ],
+                "__typename": "MenuGrouping"
+            }
+        ],
+        "totalCount": 94,
+        "count": 94,
+        "__typename": "PaginatedMenus"
+    },
+    "popularItems": {
+        "__typename": "PopularItemsResponse",
+        "items": [
+            {
+                "guid": "e103eba6-68fe-41d0-bbe8-08e02c122f96",
+                "itemGroupGuid": "665acfb9-c002-4f4a-acbb-dfd326975912",
+                "name": "Original Gyro Sandwich",
+                "description": "",
+                "prices": [
+                    12.99
+                ],
+                "defaultModifiersPrice": 0,
+                "masterId": "1200000000035814194",
+                "imageUrls": null,
+                "timeBasedRules": null,
+                "itemTags": [],
+                "__typename": "MenuItem"
+            },
+            {
+                "guid": "b6a20ba1-b0b6-422f-94fb-35d0ef959aa1",
+                "itemGroupGuid": "9f593b81-14ea-4766-b82a-5b001e4689a3",
+                "name": "CHICKEN TAWOUK SKEWERS:",
+                "description": "2 Juicy Shish Tawouk Chicken skewers with creamy garlic sauce and 3 sides.",
+                "prices": [
+                    17.99
+                ],
+                "defaultModifiersPrice": 0,
+                "masterId": "1200000000035818960",
+                "imageUrls": null,
+                "timeBasedRules": null,
+                "itemTags": [],
+                "__typename": "MenuItem"
+            },
+            {
+                "guid": "1caf92ae-6d73-4ca3-9da5-11886297e89a",
+                "itemGroupGuid": "665acfb9-c002-4f4a-acbb-dfd326975912",
+                "name": "Beef Shawarma Sandwich",
+                "description": "Marinated with shawarma spices, tomato, onion, barsely, sumac, and tahini sauces",
+                "prices": [
+                    12.99
+                ],
+                "defaultModifiersPrice": 0,
+                "masterId": "1200000000035814192",
+                "imageUrls": {
+                    "xxl": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/57e09aed-41ca-47d5-9b19-bb1a3615ef69.jpg?size=xxl",
+                    "xl": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/57e09aed-41ca-47d5-9b19-bb1a3615ef69.jpg?size=xl",
+                    "large": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/57e09aed-41ca-47d5-9b19-bb1a3615ef69.jpg?size=large",
+                    "medium": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/57e09aed-41ca-47d5-9b19-bb1a3615ef69.jpg?size=medium",
+                    "small": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/57e09aed-41ca-47d5-9b19-bb1a3615ef69.jpg?size=small",
+                    "xs": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/57e09aed-41ca-47d5-9b19-bb1a3615ef69.jpg?size=xs",
+                    "raw": "https://d2s742iet3d3t1.cloudfront.net/menu_service/restaurants/1cf4a3b9-21ea-440e-95c7-a37bb4d2c226/MenuItem/57e09aed-41ca-47d5-9b19-bb1a3615ef69.jpg",
+                    "__typename": "ImageSet"
+                },
+                "timeBasedRules": null,
+                "itemTags": [],
+                "__typename": "MenuItem"
+            }
+        ]
+    }
+}
