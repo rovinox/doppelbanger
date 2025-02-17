@@ -84,7 +84,7 @@ import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
 import CloseIcon from "@mui/icons-material/Close";
 import Slide from "@mui/material/Slide";
-import SelectActionCard from "./Components/MultiCardSelect";
+import SelectActionCard from "./Components/ModifierGroups";
 
 const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="up" ref={ref} {...props} />;
@@ -98,8 +98,9 @@ export default function ItemDetail({ open, handleClose }) {
         open={open}
         onClose={handleClose}
         TransitionComponent={Transition}
+        sx={{ width: "100vw" }}
       >
-        <AppBar sx={{ position: "relative" }}>
+        <AppBar sx={{ position: "static" }}>
           <Toolbar>
             <IconButton
               edge="start"
