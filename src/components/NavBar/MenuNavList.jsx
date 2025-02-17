@@ -86,7 +86,7 @@ const MenuNavList = ({ pages }) => {
             component={NavLink}
             to={"/"}
             // sx={{
-            //   color: "#282C34",
+            //   color: "#282c34",
             //   "&.active": { color: "white" },
             //   "&:hover": { color: "white" },
             // }}

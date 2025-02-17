@@ -12,7 +12,7 @@ const QuantityButton = ({ onQuant, onRemove, onAdd, isModifier }) => {
   return (
     <Box
       sx={{
-        background: "#282C34",
+        background: "#282c34",
         display: "flex",
         justifyContent: "space-around",
         alignItems: "center",
@@ -42,7 +42,7 @@ const QuantityButton = ({ onQuant, onRemove, onAdd, isModifier }) => {
     </Box>
 
     // <Stack
-    //   sx={{ background: "#282C34", borderRadius: 20, height: 30 }}
+    //   sx={{ background: "#282c34", borderRadius: 20, height: 30 }}
     //   s
     //   direction="row"
     //   spacing={0}

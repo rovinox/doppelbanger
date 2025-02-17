@@ -14,7 +14,7 @@
 // import Card from "@mui/material/Card";
 // import CardMedia from "@mui/material/CardMedia";
 // import Divider from "@mui/material/Divider";
-// import Box from "@mui/material/Box";
+import Box from "@mui/material/Box";
 // import AssignmentTurnedInIcon from "@mui/icons-material/AssignmentTurnedIn";
 // import Gallery from "./Components/Gallery";
 // import Description from "./Components/Description";
@@ -92,34 +92,46 @@ const Transition = React.forwardRef(function Transition(props, ref) {
 
 export default function ItemDetail({ open, handleClose }) {
   return (
-    <React.Fragment>
+    <Box sx={{ backgroundColor: "#282c34" }}>
       <Dialog
         fullScreen
         open={open}
         onClose={handleClose}
         TransitionComponent={Transition}
-        sx={{ width: "100vw" }}
+        sx={{ width: "100vw", background: "#282c34" }}
       >
-        <AppBar sx={{ position: "static" }}>
-          <Toolbar>
-            <IconButton
-              edge="start"
-              color="inherit"
-              onClick={handleClose}
-              aria-label="close"
-            >
-              <CloseIcon />
-            </IconButton>
-            <Typography sx={{ ml: 2, flex: 1 }} variant="h6" component="div">
-              Sound
-            </Typography>
-            <Button autoFocus color="inherit" onClick={handleClose}>
-              save
-            </Button>
-          </Toolbar>
-        </AppBar>
+        <Box>
+          <AppBar sx={{ position: "static", backgroundColor: "#282c34" }}>
+            <Toolbar>
+              <IconButton
+                edge="start"
+                color="inherit"
+                onClick={handleClose}
+                aria-label="close"
+                sx={{ color: "white" }}
+              >
+                <CloseIcon />
+              </IconButton>
+              <Typography
+                sx={{ ml: 2, flex: 1, color: "white" }}
+                variant="h6"
+                component="div"
+              >
+                Sound
+              </Typography>
+              <Button
+                sx={{ color: "white" }}
+                autoFocus
+                color="inherit"
+                onClick={handleClose}
+              >
+                save
+              </Button>
+            </Toolbar>
+          </AppBar>
+        </Box>
         <SelectActionCard />
       </Dialog>
-    </React.Fragment>
+    </Box>
   );
 }

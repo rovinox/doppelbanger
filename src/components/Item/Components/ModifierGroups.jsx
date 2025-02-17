@@ -297,10 +297,10 @@ export default function ResponsiveStack() {
   };
 
   return (
-    <Container>
+    <Box>
       {modifierGroups.map((group) => (
-        <Box key={group.guid} sx={{ my: 2 }}>
-          <Typography variant="h4" component="h1" gutterBottom>
+        <Box key={group.guid} sx={{ p: 2 }}>
+          <Typography sx={{ p: 2 }} variant="h4" component="h1" gutterBottom>
             {group.name}
           </Typography>
 
@@ -313,6 +313,6 @@ export default function ResponsiveStack() {
           />
         </Box>
       ))}
-    </Container>
+    </Box>
   );
 }
