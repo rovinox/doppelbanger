@@ -3,9 +3,7 @@ import { useParams } from "react-router-dom";
 
 import LoadingSpinner from "../ui/LoadingSpinner";
 import ItemList from "./ItemList";
-import { collection, getDocs, query, where } from "firebase/firestore";
-import { db } from "../../firebase/config";
-import demoData from "./DemoData.json";
+
 import Container from "@mui/material/Container";
 
 const ItemListCointainer = ({ name, items }) => {

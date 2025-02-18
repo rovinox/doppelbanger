@@ -1,9 +1,8 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 
-import dispatchOrder from '../../firebase/dispatchOrder';
-import LoadingSpinner from '../ui/LoadingSpinner';
-import Success from './Success';
-import FailedTransaction from './FailedTransaction';
+import LoadingSpinner from "../ui/LoadingSpinner";
+import Success from "./Success";
+import FailedTransaction from "./FailedTransaction";
 
 const DispatchCheckout = ({
   userData,
@@ -15,18 +14,18 @@ const DispatchCheckout = ({
   const [orderId, setOrderId] = useState(null);
   const [error, setError] = useState(null);
 
-  useEffect(async () => {
-    await dispatchOrder(cart, userData, totalCartPrice, setOrderId, setError);
-    resetCart();
-    resetUserData();
-  }, []);
+  // useEffect(async () => {
+  //   await dispatchOrder(cart, userData, totalCartPrice, setOrderId, setError);
+  //   resetCart();
+  //   resetUserData();
+  // }, []);
 
   return orderId ? (
     <Success orderId={orderId} />
   ) : error ? (
     <FailedTransaction error={error} />
   ) : (
-    <LoadingSpinner text='Procesando transacción...' />
+    <LoadingSpinner text="Procesando transacción..." />
   );
 };
 
