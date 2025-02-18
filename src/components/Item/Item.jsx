@@ -33,13 +33,17 @@ const Item = ({ guid, name, prices, imageUrls, description, ...props }) => {
         <CardActionArea>
           <CardMedia
             component="img"
-            height="260"
+            height="100"
             image={imageUrls?.large || dummyImage}
             alt={guid}
             onClick={handleClickOpen}
           />
-          <CardContent sx={{ height: 200 }}>
-            <Typography variant="h5" color="text.secondary">
+          <CardContent sx={{ height: 150 }}>
+            <Typography
+              sx={{ fontWeight: "bold" }}
+              variant="p"
+              color="text.secondary"
+            >
               {name}
             </Typography>
             <Typography variant="body2" color="text.secondary">

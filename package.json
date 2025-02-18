@@ -1,9 +1,9 @@
 {
-  "name": "lanustech",
+  "name": "template-nima",
   "private": true,
   "version": "0.0.1",
   "scripts": {
-    "dev": "concurrently 'vite' 'nodemon server/server.js'",
+    "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },

@@ -55,7 +55,7 @@ const Cart = () => {
               </Button>
             </Box>
 
-            <GoBackBtn />
+            {/* <GoBackBtn /> */}
           </>
         ) : (
           <EmptyCart />
