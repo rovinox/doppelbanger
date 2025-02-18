@@ -5,6 +5,7 @@ import Box from "@mui/material/Box";
 import IconButton from "@mui/material/IconButton";
 import Tooltip from "@mui/material/Tooltip";
 import DeleteIcon from "@mui/icons-material/Delete";
+import EditIcon from "@mui/icons-material/Edit";
 
 const CartItem = ({
   id,
@@ -55,7 +56,7 @@ const CartItem = ({
           alignContent="center"
         >
           <Box>
-            <FormHelperText>Unit price</FormHelperText>
+            <FormHelperText sx={{ color: "white" }}>Unit price</FormHelperText>
             <Typography variant="inherit">{"$" + price}</Typography>
           </Box>
         </Grid>
@@ -70,7 +71,7 @@ const CartItem = ({
           justifyContent="center"
           alignContent="center"
         >
-          <FormHelperText>QT </FormHelperText>
+          <FormHelperText sx={{ color: "white" }}>QT </FormHelperText>
           <Typography variant="inherit">{quantity}</Typography>
         </Grid>
 
@@ -84,7 +85,7 @@ const CartItem = ({
           justifyContent="center"
           alignContent="center"
         >
-          <FormHelperText>Subtotal </FormHelperText>
+          <FormHelperText sx={{ color: "white" }}>Subtotal </FormHelperText>
           <Typography variant="inherit">
             {"$" + (price * quantity).toFixed(2)}
           </Typography>
@@ -100,11 +101,16 @@ const CartItem = ({
           justifyContent="center"
           alignContent="center"
         >
-          <Tooltip title="Remove" placement="top">
-            <IconButton onClick={handleRemoveItem}>
-              <DeleteIcon />
-            </IconButton>
-          </Tooltip>
+          {/* <Tooltip sx={{ m: 2 }} title="edit" placement="top"> */}
+          <IconButton color="info" sx={{ m: 1 }} onClick={handleRemoveItem}>
+            <EditIcon />
+          </IconButton>
+          {/* </Tooltip> */}
+          {/* <Tooltip sx={{ m: 2 }} title="Remove" placement="top"> */}
+          <IconButton color="error" sx={{ m: 1 }} onClick={handleRemoveItem}>
+            <DeleteIcon />
+          </IconButton>
+          {/* </Tooltip> */}
         </Grid>
       </Grid>
     </>

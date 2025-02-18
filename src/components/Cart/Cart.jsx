@@ -10,7 +10,7 @@ import Container from "@mui/material/Container";
 import Divider from "@mui/material/Divider";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
-
+import NavBar from "../NavBar/NavBar";
 import PointOfSaleIcon from "@mui/icons-material/PointOfSale";
 import GoBackBtn from "../ui/GoBackBtn";
 
@@ -20,45 +20,47 @@ const Cart = () => {
 
   return (
     <>
-      <h2>{`My cart (${amountOfItemsInCart()})`}</h2>
-      <hr />
-      <br />
-      {cart.length > 0 ? (
-        <>
-          <Container className="animate__animated animate__fadeIn">
-            {cart.map((item) => (
-              <Fragment key={item.id}>
-                <CartItem {...item} removeItemFromCart={removeItemFromCart} />
-                <Divider variant="middle" sx={{ my: 3 }} />
-              </Fragment>
-            ))}
-          </Container>
+      <NavBar />
+      <Container sx={{ pt: 10 }}>
+        {cart.length > 0 ? (
+          <>
+            <Container className="animate__animated animate__fadeIn">
+              {cart.map((item) => (
+                <Fragment key={item.id}>
+                  <CartItem {...item} removeItemFromCart={removeItemFromCart} />
 
-          <Typography
-            variant="h6"
-            align="right"
-            className="animate__animated animate__fadeInUp"
-          >
-            Total: {"$" + totalCartPrice().toFixed(2)}
-          </Typography>
+                  <hr />
+                </Fragment>
+              ))}
+            </Container>
 
-          <Box display="flex" gap justifyContent={"center"} my>
-            <Button
-              variant="contained"
-              color="error"
-              component={Link}
-              to="/checkout"
-              startIcon={<PointOfSaleIcon />}
+            <Typography
+              variant="h6"
+              align="right"
+              className="animate__animated animate__fadeInUp"
+              //sx={{ color: "white" }}
             >
-              Proceed to payment
-            </Button>
-          </Box>
+              Total: {"$" + totalCartPrice().toFixed(2)}
+            </Typography>
 
-          <GoBackBtn />
-        </>
-      ) : (
-        <EmptyCart />
-      )}
+            <Box display="flex" gap justifyContent={"center"} my>
+              <Button
+                variant="contained"
+                color="error"
+                component={Link}
+                to="/checkout"
+                startIcon={<PointOfSaleIcon />}
+              >
+                Proceed to payment
+              </Button>
+            </Box>
+
+            <GoBackBtn />
+          </>
+        ) : (
+          <EmptyCart />
+        )}
+      </Container>
     </>
   );
 };

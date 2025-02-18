@@ -19,12 +19,12 @@ const Item = ({ guid, name, prices, imageUrls, description, ...props }) => {
     setOpen(false);
   };
   const navigate = useNavigate();
-  const handleNavigation = () => navigate(`/item/${guid}`);
+
   const dummyImage =
     "https://cdn2.picryl.com/photo/1988/12/01/good-food-display-nci-visuals-online-bb10ce-1024.jpg";
   return (
     <>
-      <ItemDetail open={open} handleClose={handleClose} />
+      <ItemDetail guid={guid} open={open} handleClose={handleClose} />
       <Card
         onClick={handleClickOpen}
         className="animate__animated animate__fadeIn"
