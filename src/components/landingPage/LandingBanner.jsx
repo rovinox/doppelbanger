@@ -3,7 +3,7 @@ import StoreInfoPicture from "./StoreInfoPicture";
 function LandingBanner({ items }) {
   return (
     <>
-      <StoreInfoPicture />{" "}
+      <StoreInfoPicture />
     </>
   );
 }

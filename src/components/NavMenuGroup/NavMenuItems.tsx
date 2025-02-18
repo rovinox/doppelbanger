@@ -49,7 +49,12 @@ export default function ScrollableTabsButtonForce() {
           aria-label="scrollable force tabs example"
         >
           {sections.map((menu, index) => (
-            <Tab value={index} key={index} label={menu.id} />
+            <Tab
+              sx={{ fontSize: 16 }}
+              value={index}
+              key={index}
+              label={menu.id}
+            />
           ))}
         </Tabs>
       </Box>

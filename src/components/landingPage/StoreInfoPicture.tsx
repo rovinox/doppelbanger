@@ -1,6 +1,9 @@
 import React from "react";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
+
 import "./storeInfoPicture.css";
+import ServiceTypeSelectorButtons from "../ServiceType/ServiceTypeSelectorButtons";
+import ServiceTypeSelector from "../ServiceType/ServiceTypeSelector";
 
 export default function StoreInfoPicture() {
   const image =
@@ -21,6 +24,7 @@ export default function StoreInfoPicture() {
           <LocationOnIcon />
           {location}
         </p>
+        <ServiceTypeSelector />
       </div>
     </div>
   );
