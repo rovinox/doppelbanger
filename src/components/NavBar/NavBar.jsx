@@ -11,7 +11,7 @@ import MenuNavList from "./MenuNavList";
 import NavMenuItems from "../NavMenuGroup/NavMenuItems";
 import ThemeContext from "../../context/ThemeContext";
 
-const NavBar = () => {
+const NavBar = (props) => {
   const pages = ["Home", "About", "Contact", "Shop"];
 
   return (
@@ -26,7 +26,7 @@ const NavBar = () => {
             </Container> */}
             <CartWidget />
           </Toolbar>
-          <NavMenuItems />
+          <NavMenuItems {...props} />
         </Container>
       </AppBar>
     </ThemeContext>
