@@ -24,8 +24,8 @@ export default function ScrollableTabsButtonForce({
         sx={{
           width: "100%",
           bgcolor: "background.paper",
-          // position: "sticky",
-          top: 0,
+          position: "sticky",
+          top: 80,
           zIndex: 1000,
         }}
       >
@@ -40,7 +40,7 @@ export default function ScrollableTabsButtonForce({
           {sections &&
             sections.map((menu, index) => (
               <Tab
-                sx={{ fontSize: 16 }}
+                sx={{ fontSize: 16, height: 50 }}
                 value={index}
                 key={index}
                 label={menu.name}

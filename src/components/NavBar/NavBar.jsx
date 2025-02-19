@@ -1,16 +1,12 @@
 import React from "react";
-
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import Container from "@mui/material/Container";
-
 import SearchBar from "./SearchBar";
 import CartWidget from "../Cart/CartWidget";
 import Logo from "./Logo";
 import MenuNavList from "./MenuNavList";
-import NavMenuItems from "../NavMenuGroup/NavMenuItems";
 import ThemeContext from "../../context/ThemeContext";
-
 const NavBar = (props) => {
   const pages = ["Home", "About", "Contact", "Shop"];
 
@@ -26,7 +22,6 @@ const NavBar = (props) => {
             </Container> */}
             <CartWidget />
           </Toolbar>
-          {props.sections && <NavMenuItems {...props} />}
         </Container>
       </AppBar>
     </ThemeContext>
