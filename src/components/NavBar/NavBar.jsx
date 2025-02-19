@@ -26,7 +26,7 @@ const NavBar = (props) => {
             </Container> */}
             <CartWidget />
           </Toolbar>
-          <NavMenuItems {...props} />
+          {props.sections && <NavMenuItems {...props} />}
         </Container>
       </AppBar>
     </ThemeContext>

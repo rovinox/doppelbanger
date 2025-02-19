@@ -7,6 +7,7 @@ import Tab from "@mui/material/Tab";
 import Box from "@mui/material/Box";
 import Navbar from "../NavBar/NavBar";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
+import "./landingPage.css";
 
 const Theme = createTheme({
   palette: { primary: { main: "#0d47a1" } },
@@ -72,9 +73,40 @@ export default function LandingPage() {
   return (
     <ThemeContext>
       <div>
-        <Navbar sections={sections} value={value} handleChange={handleChange} />
+        <Navbar />
+        {/* <Navbar sections={sections} value={value} handleChange={handleChange} /> */}
 
         <LandingBanner />
+        <ThemeContext>
+          <Box
+            sx={{
+              width: "100%",
+              bgcolor: "background.paper",
+              position: "sticky",
+              top: 80,
+              zIndex: 1000,
+            }}
+          >
+            <Tabs
+              value={value}
+              onChange={handleChange}
+              variant="scrollable"
+              scrollButtons
+              allowScrollButtonsMobile
+              aria-label="scrollable force tabs example"
+            >
+              {sections &&
+                sections.map((menu, index) => (
+                  <Tab
+                    sx={{ fontSize: 16, height: 50 }}
+                    value={index}
+                    key={index}
+                    label={menu.name}
+                  />
+                ))}
+            </Tabs>
+          </Box>
+        </ThemeContext>
         {items && items.map((item) => <ItemListContainer {...item} />)}
       </div>
     </ThemeContext>
